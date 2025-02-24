@@ -1,0 +1,48 @@
+/* Windows 11 스타일을 적용한 버튼 디자인 */
+.button {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #d1d1d1, -5px -5px 10px #ffffff;
+    color: #333;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 20px auto;
+    width: 60%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: inset 5px 5px 10px #d1d1d1, inset -5px -5px 10px #ffffff;
+}
+
+/* Windows 11 스타일을 적용한 웹페이지 배경 */
+body {
+    background: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* Windows 11 스타일을 적용한 제목 */
+h1, h2 {
+    color: #333;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+/* 버튼 컨테이너 스타일 */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: #666;
+}
